@@ -1,0 +1,73 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+    margin: 1%;
+    font-family: 'Crimson Text';
+    font-size: 1.32em;
+}
+
+img {
+    width: 100%;
+    border-radius:90%;
+}
+
+header,
+main {background-color: snow;}
+
+#img-container {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    padding-top: 1%;
+}
+
+h1 {
+   position: absolute;
+    top: 3%;
+    left: 35%;
+    font-size: 2em;
+    text-transform: capitalize;
+}
+/*For the vertical line(VR) on the page */
+.vr {
+    border: black dotted 2px;
+    position:absolute;
+    top:29%;
+    bottom:19%;
+    left:49%;
+}
+
+h1 small {font-size: 0.4em;}
+
+ small  {
+    font-size: 0.7em;
+    font-weight: 100;
+    position: inherit;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 45%;
+    padding: 2%;
+    
+}
+
+#left   {
+    float: left;
+    margin-right: 5%;
+    background-color: snow;
+}
+
+footer {
+    background-color: snow;
+    text-align: center;
+}

@@ -51,10 +51,27 @@
 			<p><em>Microsoft Hour Of Code</em> in collaboration with code.org for demonstrating an understanding of basic concepts in computer science.</p><br>
 			<p><em>YouthMobile</em> is a collaborative agreement with the Federal Capital Territory Administration (FCTA) to train youths on mobile app development.</p>
         </section>
+        <aside>
+            <h2>Contact</h2>
+            <form method="GET">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" minlength="4" placeholder="Name" required>
+                    <label for="title">Title</label>
+                    <select id="title" name="title">
+                        <option value="mister">Mr.</option>
+                        <option value="madam">Ms./Mrs.</option>
+                        <option value="doctor">Dr.</option>
+                        <option value="professor">Prof.</option>
+                    </select><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <label for="textbox">Message</label>
+                <textarea name="textbox" id="textbox" minlength="20" id="textfield"  placeholder="Type your message here" required></textarea>
+                <input type="submit" value="Submit" onclick="alert('Submission succesful!')">
+            </form>
+        </aside>
     </main>
-    <hr>
     <footer>
-        <h4>Contact</h4>
         <small><p>4 Wale Street Abuja, FCT. Nigeria.</p><p><em>Tel:</em> +(234) 903-464-4297 </p><p>himjnai@gmail.com</p></small>
 	</footer>
 </body>
